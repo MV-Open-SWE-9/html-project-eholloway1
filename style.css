@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#topHeader{ 
+    text-align: center;
+}
+
+#topNav{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+} 
+
+#selfie{
+    width: 200px;
+    height: 300px;
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+
+#photoMish{
+    display: flex;
+    flex-direction: row;
+}
+
+#mission{
+    font-size: larger;
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-top: 270px;
+}
