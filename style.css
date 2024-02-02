@@ -13,23 +13,57 @@ body{
     border: 1px solid black;
 } 
 
+.text{
+    font-size: larger;
+}
+/*---------------------------Home page/index----------------------------------------*/
+
 #selfie{
     width: 200px;
-    height: 300px;
+    height: 400px;
     align-self: flex-start;
     margin-top: 50px;
     margin-left: 50px;
     border-radius: 25px;
+    margin-bottom: 50px;
 }
 
 #photoMish{
     display: flex;
     flex-direction: row;
+    align-self: center;
+    border: 1px solid black;
+    /* position: relative; */
+    margin-top: 5vw;
+    box-shadow: 10px 5px 5px gold;
 }
 
 #mission{
     font-size: larger;
     align-self: flex-end;
     margin-left: 10px;
-    margin-top: 270px;
+    margin-bottom: 35px;
+}
+
+/* --------------About me/Bio page--------------------------------------------------- */
+
+#bioBod{
+    display: flex;
+    column-gap: 70px;
+    align-self: center;
+    align-items: center;
+    margin-top: 10vw;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px purple;
+}
+
+#bioZelda{
+    width: 100px;
+    height: 100px;
+}
+
+#bioMeme{
+    width: 200px;
+    height: 200px;
+    ;
 }
