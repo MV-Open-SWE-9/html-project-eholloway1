@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
+    background-image: url("Background_gif.gif");
 }
 
 #topHeader{ 
     text-align: center;
+    color: aliceblue;
+    font-family: 'Protest Riot', sans-serif;
 }
 
 #topNav{
@@ -15,6 +20,14 @@ body{
 
 .text{
     font-size: larger;
+    text-shadow: 2px 1px white;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px;
 }
 /*---------------------------Home page/index----------------------------------------*/
 
@@ -36,6 +49,8 @@ body{
     /* position: relative; */
     margin-top: 5vw;
     box-shadow: 10px 5px 5px gold;
+    border-radius: 10px;
+
 }
 
 #mission{
